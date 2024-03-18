@@ -1,18 +1,12 @@
-package yurpc.loadbalancer;
+package com.yilu.yilurpc.loadbalancer;
 
-import com.yupi.yurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
 
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * 一致性哈希负载均衡器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- */
+
 public class ConsistentHashLoadBalancer implements LoadBalancer {
 
     /**

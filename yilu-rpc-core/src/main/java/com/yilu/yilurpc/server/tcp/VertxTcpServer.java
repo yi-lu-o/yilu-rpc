@@ -1,16 +1,10 @@
-package yurpc.server.tcp;
+package com.yilu.yilurpc.server.tcp;
 
 import io.vertx.core.Vertx;
 import io.vertx.core.net.NetServer;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * Vertx TCP 服务器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 @Slf4j
 public class VertxTcpServer {
 

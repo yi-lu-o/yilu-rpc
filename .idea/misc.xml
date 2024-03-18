@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/example-common/pom.xml" />
+        <option value="$PROJECT_DIR$/example-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/example-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/yilu-rpc-easy/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/example-springboot-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/yilu-rpc-core/pom.xml" />
+        <option value="$PROJECT_DIR$/yilu-rpc-spring-boot-starter/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="PWA">
+    <option name="wasEnabledAtLeastOnce" value="true" />
+  </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

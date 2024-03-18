@@ -1,18 +1,12 @@
-package yurpc.protocol;
+package com.yilu.yilurpc.protocol;
 
-import com.yupi.yurpc.serializer.Serializer;
-import com.yupi.yurpc.serializer.SerializerFactory;
+import com.yilu.yilurpc.serializer.Serializer;
+import com.yilu.yilurpc.serializer.SerializerFactory;
 import io.vertx.core.buffer.Buffer;
 
 import java.io.IOException;
 
-/**
- * 协议消息编码器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- */
+
 public class ProtocolMessageEncoder {
 
     /**

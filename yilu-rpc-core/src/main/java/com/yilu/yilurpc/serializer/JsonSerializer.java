@@ -1,18 +1,12 @@
-package yurpc.serializer;
+package com.yilu.yilurpc.serializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.yupi.yurpc.model.RpcRequest;
-import com.yupi.yurpc.model.RpcResponse;
+import com.yilu.yilurpc.model.RpcRequest;
+import com.yilu.yilurpc.model.RpcResponse;
 
 import java.io.IOException;
 
-/**
- * Json 序列化器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class JsonSerializer implements Serializer {
     private static final ObjectMapper OBJECT_MAPPER = new ObjectMapper();
 

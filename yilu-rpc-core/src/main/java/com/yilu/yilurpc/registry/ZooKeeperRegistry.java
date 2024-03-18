@@ -1,8 +1,8 @@
-package yurpc.registry;
+package com.yilu.yilurpc.registry;
 
 import cn.hutool.core.collection.ConcurrentHashSet;
-import com.yupi.yurpc.config.RegistryConfig;
-import com.yupi.yurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.config.RegistryConfig;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
@@ -20,16 +20,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
- * zookeeper 注册中心
- * 操作文档：<a href="https://curator.apache.org/docs/getting-started">Apache Curator</a>
- * 代码示例：<a href="https://github.com/apache/curator/blob/master/curator-examples/src/main/java/discovery/DiscoveryExample.java">DiscoveryExample.java</a>
- * 监听 key 示例：<a href="https://github.com/apache/curator/blob/master/curator-examples/src/main/java/cache/CuratorCacheExample.java">CuratorCacheExample.java</a>
- *
- * @author <a href="https://github.com/liyupi">coder_yupi</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">yupi 的编程宝典</a>
- */
 @Slf4j
 public class ZooKeeperRegistry implements Registry {
 

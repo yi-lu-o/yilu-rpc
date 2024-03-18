@@ -1,16 +1,10 @@
-package yurpc.proxy;
+package com.yilu.yilurpc.proxy;
 
-import com.yupi.yurpc.RpcApplication;
+import com.yilu.yilurpc.RpcApplication;
 
 import java.lang.reflect.Proxy;
 
-/**
- * 服务代理工厂（工厂模式，用于创建代理对象）
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class ServiceProxyFactory {
 
     /**

@@ -1,20 +1,14 @@
-package yurpc.fault.retry;
+package com.yilu.yilurpc.fault.retry;
 
 import com.github.rholder.retry.*;
-import com.yupi.yurpc.model.RpcResponse;
+import com.yilu.yilurpc.model.RpcResponse;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
-/**
- * 固定时间间隔 - 重试策略
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- */
+
 @Slf4j
 public class FixedIntervalRetryStrategy implements RetryStrategy {
 

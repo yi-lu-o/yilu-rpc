@@ -1,11 +1,11 @@
-package yurpc.server;
+package com.yilu.yilurpc.server;
 
-import com.yupi.yurpc.RpcApplication;
-import com.yupi.yurpc.model.RpcRequest;
-import com.yupi.yurpc.model.RpcResponse;
-import com.yupi.yurpc.registry.LocalRegistry;
-import com.yupi.yurpc.serializer.Serializer;
-import com.yupi.yurpc.serializer.SerializerFactory;
+import com.yilu.yilurpc.RpcApplication;
+import com.yilu.yilurpc.model.RpcRequest;
+import com.yilu.yilurpc.model.RpcResponse;
+import com.yilu.yilurpc.registry.LocalRegistry;
+import com.yilu.yilurpc.serializer.Serializer;
+import com.yilu.yilurpc.serializer.SerializerFactory;
 import io.vertx.core.Handler;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.http.HttpServerRequest;
@@ -14,13 +14,7 @@ import io.vertx.core.http.HttpServerResponse;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
-/**
- * HTTP 请求处理器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class HttpServerHandler implements Handler<HttpServerRequest> {
 
     @Override

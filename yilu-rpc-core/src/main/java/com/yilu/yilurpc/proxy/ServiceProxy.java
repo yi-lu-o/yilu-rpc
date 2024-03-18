@@ -1,25 +1,25 @@
-package yurpc.proxy;
+package com.yilu.yilurpc.proxy;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
-import com.yupi.yurpc.RpcApplication;
-import com.yupi.yurpc.config.RpcConfig;
-import com.yupi.yurpc.constant.RpcConstant;
-import com.yupi.yurpc.fault.retry.RetryStrategy;
-import com.yupi.yurpc.fault.retry.RetryStrategyFactory;
-import com.yupi.yurpc.fault.tolerant.TolerantStrategy;
-import com.yupi.yurpc.fault.tolerant.TolerantStrategyFactory;
-import com.yupi.yurpc.loadbalancer.LoadBalancer;
-import com.yupi.yurpc.loadbalancer.LoadBalancerFactory;
-import com.yupi.yurpc.model.RpcRequest;
-import com.yupi.yurpc.model.RpcResponse;
-import com.yupi.yurpc.model.ServiceMetaInfo;
-import com.yupi.yurpc.registry.Registry;
-import com.yupi.yurpc.registry.RegistryFactory;
-import com.yupi.yurpc.serializer.Serializer;
-import com.yupi.yurpc.serializer.SerializerFactory;
-import com.yupi.yurpc.server.tcp.VertxTcpClient;
+import com.yilu.yilurpc.RpcApplication;
+import com.yilu.yilurpc.config.RpcConfig;
+import com.yilu.yilurpc.constant.RpcConstant;
+import com.yilu.yilurpc.fault.retry.RetryStrategy;
+import com.yilu.yilurpc.fault.retry.RetryStrategyFactory;
+import com.yilu.yilurpc.fault.tolerant.TolerantStrategy;
+import com.yilu.yilurpc.fault.tolerant.TolerantStrategyFactory;
+import com.yilu.yilurpc.loadbalancer.LoadBalancer;
+import com.yilu.yilurpc.loadbalancer.LoadBalancerFactory;
+import com.yilu.yilurpc.model.RpcRequest;
+import com.yilu.yilurpc.model.RpcResponse;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.registry.Registry;
+import com.yilu.yilurpc.registry.RegistryFactory;
+import com.yilu.yilurpc.serializer.Serializer;
+import com.yilu.yilurpc.serializer.SerializerFactory;
+import com.yilu.yilurpc.server.tcp.VertxTcpClient;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
@@ -28,13 +28,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 服务代理（JDK 动态代理）
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class ServiceProxy implements InvocationHandler {
 
     /**

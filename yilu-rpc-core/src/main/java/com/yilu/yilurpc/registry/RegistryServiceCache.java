@@ -1,16 +1,10 @@
-package yurpc.registry;
+package com.yilu.yilurpc.registry;
 
-import com.yupi.yurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
 
 import java.util.List;
 
-/**
- * 注册中心服务本地缓存
- *
- * @author <a href="https://github.com/liyupi">coder_yupi</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">yupi 的编程宝典</a>
- */
+
 public class RegistryServiceCache {
 
     /**

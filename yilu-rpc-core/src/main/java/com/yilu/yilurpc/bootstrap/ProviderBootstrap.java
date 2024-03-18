@@ -1,24 +1,18 @@
-package yurpc.bootstrap;
+package com.yilu.yilurpc.bootstrap;
 
-import com.yupi.yurpc.RpcApplication;
-import com.yupi.yurpc.config.RegistryConfig;
-import com.yupi.yurpc.config.RpcConfig;
-import com.yupi.yurpc.model.ServiceMetaInfo;
-import com.yupi.yurpc.model.ServiceRegisterInfo;
-import com.yupi.yurpc.registry.LocalRegistry;
-import com.yupi.yurpc.registry.Registry;
-import com.yupi.yurpc.registry.RegistryFactory;
-import com.yupi.yurpc.server.tcp.VertxTcpServer;
+import com.yilu.yilurpc.RpcApplication;
+import com.yilu.yilurpc.config.RegistryConfig;
+import com.yilu.yilurpc.config.RpcConfig;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.model.ServiceRegisterInfo;
+import com.yilu.yilurpc.registry.LocalRegistry;
+import com.yilu.yilurpc.registry.Registry;
+import com.yilu.yilurpc.registry.RegistryFactory;
+import com.yilu.yilurpc.server.tcp.VertxTcpServer;
 
 import java.util.List;
 
-/**
- * 服务提供者启动类（初始化）
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- */
+
 public class ProviderBootstrap {
 
     /**

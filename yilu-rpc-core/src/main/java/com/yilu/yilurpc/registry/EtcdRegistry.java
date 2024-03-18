@@ -1,12 +1,12 @@
-package yurpc.registry;
+package com.yilu.yilurpc.registry;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.collection.ConcurrentHashSet;
 import cn.hutool.cron.CronUtil;
 import cn.hutool.cron.task.Task;
 import cn.hutool.json.JSONUtil;
-import com.yupi.yurpc.config.RegistryConfig;
-import com.yupi.yurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.config.RegistryConfig;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
 import io.etcd.jetcd.*;
 import io.etcd.jetcd.options.GetOption;
 import io.etcd.jetcd.options.PutOption;
@@ -19,13 +19,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
- * Etcd 注册中心
- *
- * @author <a href="https://github.com/liyupi">coder_yupi</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">yupi 的编程宝典</a>
- */
+
 public class EtcdRegistry implements Registry {
 
     private Client client;

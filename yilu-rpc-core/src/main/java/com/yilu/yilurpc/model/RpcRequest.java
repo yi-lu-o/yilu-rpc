@@ -1,6 +1,6 @@
-package yurpc.model;
+package com.yilu.yilurpc.model;
 
-import com.yupi.yurpc.constant.RpcConstant;
+import com.yilu.yilurpc.constant.RpcConstant;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,13 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-/**
- * RPC 请求
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 @Data
 @Builder
 @AllArgsConstructor

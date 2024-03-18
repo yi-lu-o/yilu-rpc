@@ -1,7 +1,7 @@
-package yurpc.spi;
+package com.yilu.yilurpc.spi;
 
 import cn.hutool.core.io.resource.ResourceUtil;
-import com.yupi.yurpc.serializer.Serializer;
+import com.yilu.yilurpc.serializer.Serializer;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.BufferedReader;
@@ -14,14 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * SPI 加载器
- * 自定义实现，支持键值对映射
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 @Slf4j
 public class SpiLoader {
 

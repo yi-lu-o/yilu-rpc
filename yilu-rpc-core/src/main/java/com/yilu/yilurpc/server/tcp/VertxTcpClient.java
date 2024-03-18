@@ -1,11 +1,11 @@
-package yurpc.server.tcp;
+package com.yilu.yilurpc.server.tcp;
 
 import cn.hutool.core.util.IdUtil;
-import com.yupi.yurpc.RpcApplication;
-import com.yupi.yurpc.model.RpcRequest;
-import com.yupi.yurpc.model.RpcResponse;
-import com.yupi.yurpc.model.ServiceMetaInfo;
-import com.yupi.yurpc.protocol.*;
+import com.yilu.yilurpc.RpcApplication;
+import com.yilu.yilurpc.model.RpcRequest;
+import com.yilu.yilurpc.model.RpcResponse;
+import com.yilu.yilurpc.model.ServiceMetaInfo;
+import com.yilu.yilurpc.protocol.*;
 import io.vertx.core.Vertx;
 import io.vertx.core.buffer.Buffer;
 import io.vertx.core.net.NetClient;
@@ -15,13 +15,7 @@ import java.io.IOException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-/**
- * Vertx TCP 请求客户端
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">程序员鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class VertxTcpClient {
 
     /**

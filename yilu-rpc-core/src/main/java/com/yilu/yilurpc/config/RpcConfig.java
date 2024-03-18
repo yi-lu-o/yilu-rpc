@@ -1,25 +1,19 @@
-package yurpc.config;
+package com.yilu.yilurpc.config;
 
-import com.yupi.yurpc.fault.retry.RetryStrategyKeys;
-import com.yupi.yurpc.fault.tolerant.TolerantStrategyKeys;
-import com.yupi.yurpc.loadbalancer.LoadBalancerKeys;
-import com.yupi.yurpc.serializer.SerializerKeys;
+import com.yilu.yilurpc.fault.retry.RetryStrategyKeys;
+import com.yilu.yilurpc.fault.tolerant.TolerantStrategyKeys;
+import com.yilu.yilurpc.loadbalancer.LoadBalancerKeys;
+import com.yilu.yilurpc.serializer.SerializerKeys;
 import lombok.Data;
 
-/**
- * RPC 框架全局配置
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- */
+
 @Data
 public class RpcConfig {
 
     /**
      * 名称
      */
-    private String name = "yu-rpc";
+    private String name = "yilu-rpc";
 
     /**
      * 版本号

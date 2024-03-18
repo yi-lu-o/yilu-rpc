@@ -6,7 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="example-springboot-provider" />
+        <module name="example-springboot-consumer" />
+        <module name="yilu-rpc-spring-boot-starter" />
+        <module name="example-provider" />
         <module name="example-common" />
+        <module name="yilu-rpc-easy" />
+        <module name="yilu-rpc-core" />
+        <module name="example-consumer" />
       </profile>
     </annotationProcessing>
   </component>

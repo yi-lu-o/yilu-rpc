@@ -1,4 +1,4 @@
-package yurpc.serializer;
+package com.yilu.yilurpc.serializer;
 
 import com.caucho.hessian.io.HessianInput;
 import com.caucho.hessian.io.HessianOutput;
@@ -7,13 +7,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-/**
- * Hessian 序列化器
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @learn <a href="https://codefather.cn">编程宝典</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
- */
+
 public class HessianSerializer implements Serializer {
     @Override
     public <T> byte[] serialize(T object) throws IOException {

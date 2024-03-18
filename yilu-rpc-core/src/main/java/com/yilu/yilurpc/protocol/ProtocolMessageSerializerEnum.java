@@ -1,4 +1,4 @@
-package yurpc.protocol;
+package com.yilu.yilurpc.protocol;
 
 import cn.hutool.core.util.ObjectUtil;
 import lombok.Getter;
@@ -7,13 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * 协议消息的序列化器枚举
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航学习圈</a>
- * @learn <a href="https://codefather.cn">鱼皮的编程宝典</a>
- */
+
 @Getter
 public enum ProtocolMessageSerializerEnum {
 

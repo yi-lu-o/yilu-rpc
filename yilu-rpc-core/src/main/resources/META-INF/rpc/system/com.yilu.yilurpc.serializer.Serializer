@@ -1,4 +1,4 @@
-jdk=com.yupi.yurpc.serializer.JdkSerializer
-hessian=com.yupi.yurpc.serializer.HessianSerializer
-json=com.yupi.yurpc.serializer.JsonSerializer
-kryo=com.yupi.yurpc.serializer.KryoSerializer
+jdk=com.yilu.yilurpc.serializer.JdkSerializer
+hessian=com.yilu.yilurpc.serializer.HessianSerializer
+json=com.yilu.yilurpc.serializer.JsonSerializer
+kryo=com.yilu.yilurpc.serializer.KryoSerializer

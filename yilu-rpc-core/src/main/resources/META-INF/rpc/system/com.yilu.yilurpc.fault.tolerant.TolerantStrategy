@@ -1,0 +1,4 @@
+failBack=com.yilu.yilurpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.yilu.yilurpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.yilupi.yilurpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.yilupi.yilurpc.fault.tolerant.FailSafeTolerantStrategy
